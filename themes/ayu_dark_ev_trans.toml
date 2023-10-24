@@ -11,9 +11,7 @@ inherits = 'ayu_dark_transparent'
 "keyword.control.return" = "vibrant_yellow"
 "variable" = "light_gray"
 "constructor" = "magenta"
-"type.builtin" = { fg = "blue", modifiers = ["italic"] }
 "punctuation" = "magenta"
-
 "comment" = "comment" 
 
 # Gutters and editing area
@@ -36,6 +34,7 @@ inherits = 'ayu_dark_transparent'
 "ui.text.inactive" = "gray"
 "ui.bufferline" = { fg = "light_gray", bg = "background" }
 "ui.bufferline.active" = { fg = "light_gray", bg = "dark_gray" }
+"ui.statusline" = { fg = "gray" }
 
 [palette]
 background = '#020202'
