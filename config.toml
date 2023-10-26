@@ -5,6 +5,7 @@ line-number = "relative"
 true-color = true
 auto-pairs = true
 idle-timeout = 100
+color-modes = true
 
 [editor.statusline]
 right = ["diagnostics", "position", "file-encoding","version-control", "file-type"]
