@@ -1,18 +1,18 @@
 
 inherits = 'ayu_dark_transparent'
 
-"function.macro" = "orange"
+"function.macro" = {fg = "orange", modifiers = ["bold"]}
 "function" = "pink" 
-"keyword" = "yellow"
-"keyword.control" = "vibrant_yellow"
+"keyword" = { fg = "yellow", modifiers = [ "bold" ] }
+"keyword.control" = {fg = "vibrant_yellow", modifiers = [ "bold" ]}
 "keyword.storage" = "yellow"
 "keyword.storage.modifier" = "magenta"
 "keyword.control.import" = "pink"
-"keyword.control.return" = "vibrant_yellow"
+"keyword.control.return" = {fg = "vibrant_yellow", modifiers = [ "bold" ]}
 "variable" = "light_gray"
 "constructor" = "magenta"
 "punctuation" = "magenta"
-"comment" = "comment" 
+"comment" = { fg = "comment", modifiers = [ "italic" ] }
 
 # Gutters and editing area
 "error" = "red"
@@ -27,10 +27,10 @@ inherits = 'ayu_dark_transparent'
 "markup.raw.block" = { bg = "black" }
 "markup.raw.inline" = { bg = "black" }
 
-"ui.cursor" = { fg = "dark_gray", bg = "light_gray" }
-"ui.cursor.primary" = { fg = "dark_gray", bg = "orange" }
-"ui.cursor.primary.select" = { fg = "dark_gray", bg = "magenta" }
-"ui.cursor.primary.insert" = { fg = "dark_gray", bg = "green" }
+"ui.cursor" = { fg = "vibrant_yellow", bg = "light_gray" }
+"ui.cursor.primary" = { fg = "vibrant_yellow", bg = "orange" }
+"ui.cursor.primary.select" = { fg = "vibrant_yellow", bg = "magenta" }
+"ui.cursor.primary.insert" = { fg = "vibrant_yellow", bg = "green" }
 "ui.text.inactive" = "gray"
 "ui.bufferline" = { fg = "light_gray", bg = "background" }
 "ui.bufferline.active" = { fg = "light_gray", bg = "dark_gray" }
